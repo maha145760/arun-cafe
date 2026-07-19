@@ -1901,3 +1901,31 @@ nav{
 .card button{
     margin-top:0;
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .menu {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  nav a {
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
