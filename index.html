@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arun Cafe</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+
+/* Navbar */
+
+nav{
+    background:#4e342e;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+}
+
+
+.logo{
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+}
+
+
+ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+
+ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+
+
+/* Home Background */
+
+.home{
+
+    height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("image/cafe-bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+    text-align:center;
+
+}
+
+
+
+.home h1{
+
+    font-size:55px;
+
+}
+
+
+.home p{
+
+    font-size:25px;
+    margin:20px;
+
+}
+
+
+button{
+
+    background:#ff9800;
+    color:white;
+
+    padding:15px 30px;
+
+    border:none;
+    border-radius:5px;
+
+    font-size:18px;
+
+}
+
+
+
+/* Menu */
+
+.menu{
+
+    padding:40px;
+    text-align:center;
+
+}
+
+
+.cards{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+
+}
+
+
+.card{
+
+    background:white;
+    padding:20px;
+
+    width:200px;
+
+    box-shadow:0 0 10px gray;
+}
+.menu{
+    padding:40px;
+    text-align:center;
+}
+
+.footer{
+    width:100%;
+    background:#4e342e;
+    color:white;
+    text-align:center;
+    padding:20px;
+    clear:both;
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+
+<div class="logo">
+☕ Arun Cafe
+</div>
+
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="menu.html">Menu</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+
+
+
+<div class="home">
+
+
+<div>
+
+<h1>
+Welcome to Arun Cafe
+</h1>
+
+
+<p>
+Enjoy the Best Coffee in Town
+</p>
+
+
+<button>
+Order Now
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+<section class="menu">
+
+
+<h2>
+Our Menu
+</h2>
+
+
+<br>
+
+
+<div class="cards">
+
+
+<div class="card">
+<h3>Filter Coffee</h3>
+<p>₹30</p>
+</div>
+
+
+<div class="card">
+<h3>Cappuccino</h3>
+<p>₹120</p>
+</div>
+
+
+<div class="card">
+<h3>Burger</h3>
+<p>₹120</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="menu">
+    <!-- Menu Items -->
+</section>
+
+<footer class="footer">
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Arun Cafe, Coimbatore</p>
+        <p>+91 9876543210</p>
+        <p>aruncafe@gmail.com</p>
+    </div>
+
+    <p>© 2026 Arun Cafe | All Rights Reserved</p>
+</footer>
+</body>
+</html>
