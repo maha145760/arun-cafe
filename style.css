@@ -484,3 +484,36 @@ nav ul{
     overflow:hidden;
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
+@media (max-width: 768px){
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .logo h1{
+        font-size: 32px;
+        white-space: nowrap;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contact-container{
+        width: 95%;
+    }
+
+}
