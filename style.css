@@ -433,38 +433,20 @@ nav ul{
 }
 
 
-.hero p{
 
-    font-size:18px;
-
-}
-
-
-.menu-grid{
-
-    grid-template-columns:1fr;
-
-}
 
 
 .contact-section{
 
     flex-direction:column;
-    padding:30px;
+    padding:40px;
 
 }
 
 
 .contact-box{
 
-    width:100%;
-
-}
-
-
-.about{
-
-    width:90%;
+    width:110%;
 
 }
 
@@ -513,7 +495,7 @@ nav ul{
     }
 
     .contact-container{
-        width: 95%;
+        width: 100%;
     }
 
 }
